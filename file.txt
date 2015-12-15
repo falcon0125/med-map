@@ -1,0 +1,20 @@
+total 25288
+drwxr-xr-x@ 19 falcon0125  staff      646 12 15 22:38 .
+drwxr-xr-x@ 19 falcon0125  staff      646 12 15 21:47 ..
+drwxr-xr-x@ 13 falcon0125  staff      442 12 15 22:22 .git
+drwxr-xr-x@  9 falcon0125  staff      306 12 15 22:20 .idea
+drwxr-xr-x@  5 falcon0125  staff      170 12  8 17:28 .ipynb_checkpoints
+-rw-r--r--@  1 falcon0125  staff   122969 11 25 00:13 1283_1_service.zip
+-rw-r--r--@  1 falcon0125  staff    69190 11 25 00:13 1284_1_detafunc.zip
+-rw-r--r--@  1 falcon0125  staff   101801 12  8 19:26 Untitled.ipynb
+drwxr-xr-x@  3 falcon0125  staff      102 12  8 17:26 data
+-rw-r--r--@  1 falcon0125  staff   483548 11 24 06:30 detafunc.txt
+-rw-r--r--   1 falcon0125  staff        0 12 15 22:38 file.txt
+-rw-r--r--@  1 falcon0125  staff      897 12 15 22:19 geo.py
+-rw-r--r--@  1 falcon0125  staff  4740544 12 15 22:13 geocode.ipynb
+-rw-r--r--@  1 falcon0125  staff  3680686 11 25 00:01 hospbsc.csv
+-rw-r--r--@  1 falcon0125  staff   311349 12  8 19:31 main.ipynb
+-rw-r--r--@  1 falcon0125  staff  2395958 12  8 19:24 pivottablejs.html
+-rw-r--r--@  1 falcon0125  staff    73728 12 15 22:38 result0.txt
+-rw-r--r--@  1 falcon0125  staff   938243 11 24 09:04 service.txt
+-rw-r--r--@  1 falcon0125  staff      127 12 15 22:37 test.py
