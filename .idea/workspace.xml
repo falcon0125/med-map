@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4390a30c-a83d-4f6c-ac97-597d6bf50668" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/geocode-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/geocode-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geo.py" afterPath="$PROJECT_DIR$/geo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geocode.ipynb" afterPath="$PROJECT_DIR$/geocode.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result0.txt" afterPath="$PROJECT_DIR$/result0.txt" />
     </list>
     <ignored path="med-map.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="geo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/geo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6835443">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state vertical-scroll-proportion="-0.025316456">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
                 <element signature="e#41#60#0" expanded="true" />
               </folding>
@@ -425,8 +426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/geo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6835443">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state vertical-scroll-proportion="-0.025316456">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
             <element signature="e#41#60#0" expanded="true" />
           </folding>

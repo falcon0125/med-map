@@ -4,6 +4,10 @@
 import pandas as pd
 import geocoder
 import time
+
+part = 0
+
+
 df = pd.read_csv('hospbsc.csv',encoding='UTF8')
 df.columns=['area','id','name','address','phone-code', 'phone', 'level', 'code','type','close_date' ]
 df = df[df.level.isin([u'1',u'2',u'3',u'4'])] #只算醫療院所
@@ -23,10 +27,11 @@ def div(l, n):
     return r
 
 result =[]
-to_solve = div(addr_list, 2400)[0]
+to_solve = div(addr_list, 2400)[part]
+#to_solve = div(addr_list, 25)[part]
 
 
-for entity in to_solve:
+for i, entity in enumerate(to_solve):
     hid,addr = entity
     g = geocoder.api.Google(addr)
     d = dict()
@@ -36,6 +41,11 @@ for entity in to_solve:
     d['lng'] = g.lng
     d['address'] = addr
     d['status'] = g.status
-    print repr(d)
+    #print repr(d)
+    print '{}/2400, part={}'.format(i,part), g.status
     result.append(d)
-    time.sleep(1)
+
+r = pd.DataFrame(result)
+r.to_csv('./result_{}.csv'.format(part), encoding='utf-8')
+
+

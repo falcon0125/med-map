@@ -1,4 +1,4 @@
-size of df :  22356
+
 {'status': 'OK', 'confidence': 9, 'hid': u'0101090019', 'address': u'\u53f0\u5317\u5e02\u5927\u540c\u5340\u912d\u5dde\u8def\uff14\uff10\u865f', 'lat': 25.0502095, 'lng': 121.5085146}
 {'status': 'OK', 'confidence': 9, 'hid': u'0101090517', 'address': u'\u53f0\u5317\u5e02\u5927\u540c\u5340\u912d\u5dde\u8def\uff11\uff14\uff15\u865f\uff08\u4ee3\u8868\uff09', 'lat': 25.0509696, 'lng': 121.5093209}
 {'status': 'OK', 'confidence': 9, 'hid': u'0111070010', 'address': u'\u57fa\u9686\u5e02\u4fe1\u7fa9\u5340\u4fe1\u4e8c\u8def\uff12\uff16\uff18\u865f', 'lat': 25.1302624, 'lng': 121.7481291}
