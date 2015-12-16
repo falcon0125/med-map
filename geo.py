@@ -4,9 +4,11 @@
 import pandas as pd
 import geocoder
 import time
+import sys
 
-part = 0
 
+part = int(sys.argv[1])
+print part
 
 df = pd.read_csv('hospbsc.csv',encoding='UTF8')
 df.columns=['area','id','name','address','phone-code', 'phone', 'level', 'code','type','close_date' ]
